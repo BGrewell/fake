@@ -48,8 +48,8 @@ jobs:
         
     - name: Build Update Page
       run: |
-        mkdir ./public
-        echo "test" > /public/version.html
+        mkdir public
+        echo "test" > public/version.html
         
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
