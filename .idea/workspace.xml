@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="918df98c-224b-4f4a-94f5-bca10de2774e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files/Git/cmd/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -84,11 +83,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="603" y="317" key="#go_build_main.go" timestamp="1594158643861">
       <screen x="0" y="0" width="3840" height="1560" />
     </state>
     <state x="603" y="317" key="#go_build_main.go/0.0.3840.1560@0.0.3840.1560" timestamp="1594158643861" />
+    <state width="1864" height="435" key="GridCell.Tab.0.bottom" timestamp="1594158696442">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state width="1864" height="435" key="GridCell.Tab.0.bottom/0.0.3840.1560@0.0.3840.1560" timestamp="1594158696442" />
+    <state width="1864" height="435" key="GridCell.Tab.0.center" timestamp="1594158696441">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state width="1864" height="435" key="GridCell.Tab.0.center/0.0.3840.1560@0.0.3840.1560" timestamp="1594158696441" />
+    <state width="1864" height="435" key="GridCell.Tab.0.left" timestamp="1594158696441">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state width="1864" height="435" key="GridCell.Tab.0.left/0.0.3840.1560@0.0.3840.1560" timestamp="1594158696441" />
+    <state width="1864" height="435" key="GridCell.Tab.0.right" timestamp="1594158696441">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state width="1864" height="435" key="GridCell.Tab.0.right/0.0.3840.1560@0.0.3840.1560" timestamp="1594158696441" />
+    <state x="344" y="337" key="SettingsEditor" timestamp="1594159154082">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="344" y="337" key="SettingsEditor/0.0.3840.1560@0.0.3840.1560" timestamp="1594159154082" />
+    <state x="460" y="447" key="Vcs.Push.Dialog.v2" timestamp="1594158880384">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="460" y="447" key="Vcs.Push.Dialog.v2/0.0.3840.1560@0.0.3840.1560" timestamp="1594158880384" />
   </component>
 </project>
