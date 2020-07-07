@@ -45,3 +45,14 @@ jobs:
         tag: ${{ github.ref }}
         overwrite: true
         body: "This is my release text"
+        
+    - name: Build Update Page
+      run: |
+        mkdir ./public
+        echo "test" > /public/version.html
+        
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
