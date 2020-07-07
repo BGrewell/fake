@@ -31,10 +31,17 @@ jobs:
         fi
 
     - name: Build
-      run: go build -v .
+      run: go build -v . -o testexe
 
     - name: Test
       run: go test -v .
 
-    - name: Go Release Binary
-      uses: ngs/go-release.action@v1.0.2
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: testexe
+        asset_name: testexe
+        tag: ${{ github.ref }}
+        overwrite: true
+        body: "This is my release text"
