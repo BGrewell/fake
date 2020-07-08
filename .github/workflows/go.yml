@@ -48,8 +48,8 @@ jobs:
         
     - name: Build Update Page
       run: |
-        mkdir public
-        echo "test" > public/version.html
+        mkdir build
+        echo "test" > build/version.html
         
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
