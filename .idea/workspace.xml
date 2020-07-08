@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918df98c-224b-4f4a-94f5-bca10de2774e" name="Default Changelist" comment="initial commit">
+    <list default="true" id="918df98c-224b-4f4a-94f5-bca10de2774e" name="Default Changelist" comment="bumped version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="bumped version" />
+    <option name="LAST_COMMIT_MESSAGE" value="bumped version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="825" y="610" key="#Notifications" timestamp="1594159230177">
@@ -119,9 +121,21 @@
       <screen x="0" y="0" width="3840" height="1560" />
     </state>
     <state x="344" y="337" key="SettingsEditor/0.0.3840.1560@0.0.3840.1560" timestamp="1594161102420" />
-    <state x="460" y="447" key="Vcs.Push.Dialog.v2" timestamp="1594159836575">
+    <state x="460" y="447" key="Vcs.Push.Dialog.v2" timestamp="1594233888597">
       <screen x="0" y="0" width="3840" height="1560" />
     </state>
-    <state x="460" y="447" key="Vcs.Push.Dialog.v2/0.0.3840.1560@0.0.3840.1560" timestamp="1594159836575" />
+    <state x="460" y="447" key="Vcs.Push.Dialog.v2/0.0.3840.1560@0.0.3840.1560" timestamp="1594233888597" />
+    <state x="648" y="518" key="git4idea.merge.GitPullDialog" timestamp="1594229215107">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="648" y="518" key="git4idea.merge.GitPullDialog/0.0.3840.1560@0.0.3840.1560" timestamp="1594229215107" />
+    <state x="739" y="655" key="git4idea.ui.GitStashDialog" timestamp="1594229248786">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="739" y="655" key="git4idea.ui.GitStashDialog/0.0.3840.1560@0.0.3840.1560" timestamp="1594229248785" />
+    <state x="739" y="586" key="git4idea.ui.GitTagDialog" timestamp="1594234113644">
+      <screen x="0" y="0" width="3840" height="1560" />
+    </state>
+    <state x="739" y="586" key="git4idea.ui.GitTagDialog/0.0.3840.1560@0.0.3840.1560" timestamp="1594234113644" />
   </component>
 </project>
