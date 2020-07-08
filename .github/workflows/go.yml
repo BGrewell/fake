@@ -51,8 +51,10 @@ jobs:
         mkdir public
         echo "test" > public/version.html
         
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPOSITORY_NAME: bgrewell.github.io
+        BRANCH: master # The branch the action should deploy to.
+        FOLDER: build # The folder the action should deploy
