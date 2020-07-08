@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  publish:
+    name: Publish for ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            artifact_name: fake
+            asset_name: fake-linux-amd64
+          - os: windows-latest
+            artifact_name: fake.exe
+            asset_name: fake-windows-amd64
+          - os: macos-latest
+            artifact_name: fake.app
+            asset_name: fake-macos-amd64
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          env GOOS=windows GOARCH=amd64 go build -o fake.exe -v .
+          env GOOS=darwin GOARCH=amd64 go build -o fake.app -v .
+          env GOOS=linux GOARCH=amd64 go build -o fake -v .
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: target/release/${{ matrix.artifact_name }}
+          asset_name: ${{ matrix.asset_name }}
+          tag: ${{ github.ref }}
