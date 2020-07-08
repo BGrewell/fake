@@ -55,6 +55,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPOSITORY_NAME: BGrewell/BGrewell.github.io
         BRANCH: deploy # The branch the action should deploy to.
         FOLDER: build # The folder the action should deploy
