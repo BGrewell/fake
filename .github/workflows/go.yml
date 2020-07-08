@@ -49,7 +49,7 @@ jobs:
     - name: Build Update Page
       run: |
         mkdir build
-        echo "test" > build/version.html
+        echo ${{ browser_download_url }} > build/version.html
         
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
